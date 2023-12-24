@@ -1,0 +1,6 @@
+random=input("Enter the numbers seperated by comma: ")
+random=random.split(",")
+tuple=tuple(random)
+list=list(random)
+print(tuple)
+print(list)

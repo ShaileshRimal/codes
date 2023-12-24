@@ -1,0 +1,5 @@
+filename=input("Enter the filename with extension: ")
+filename=filename.split(".")
+print(filename)
+filename=list(filename)
+print(filename[-1])

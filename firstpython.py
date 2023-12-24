@@ -100,8 +100,8 @@
 # name={"shyam":12, "ram":43, "hari":33 }
 # print(name)
 # print(name.clear())
-from math import pi
-print(pi)
+# from math import pi
+# print(pi)
 # from math import * 
 
 # print(pow(64))
