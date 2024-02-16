@@ -17,12 +17,20 @@
 # print(fun(2,3))
 # print(fun(5,13))
 
-def fun(x,y):
-    if x+y==5 or x-y==5 or x==y :
-        return 1
-    else:
-        return 0
+# def fun(x,y):
+#     if x+y==5 or x-y==5 or x==y :
+#         return 1
+#     else:
+#         return 0
     
-print(fun(7,2))
-print(fun(3,2))
-print(fun(2,2))
+# print(fun(7,2))
+# print(fun(3,2))
+# print(fun(2,2))
+
+
+def addonlyint(x,y):
+    if not (isinstance(x,int) and isinstance(x,int)):
+        return "Please enter the integers!"
+    return x+y
+print(addonlyint(2,4))
+print(addonlyint(2.4,4))
